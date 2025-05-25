@@ -20,7 +20,9 @@ jobs:
           python-version: '3.x'
 
       - name: Step0 - remove old file
-        run: rm proxies.csv
+        run: |
+          rm proxies.csv
+          rm result.txt
 
       - name: Step1 - download original csv file
         run: wget https://raw.githubusercontent.com/6Kmfi6HP/proxy_files/refs/heads/main/proxies.csv
