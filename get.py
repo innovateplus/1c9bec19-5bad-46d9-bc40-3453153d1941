@@ -42,8 +42,9 @@ def csv_to_txt(input_csv='proxies.csv', output_txt='result.txt'):
             if col1 in seen_col1:
                 continue
 
-            if col2 != 443:
+            if col2 != '443':
                 continue
+                
             seen_col1.add(col1)
 
             # 按照要求的格式写入
