@@ -48,7 +48,7 @@ def process_proxies(csv_path='proxies.csv'):
 
     # 将每个文件的数据写入磁盘（覆盖写入）
     for filename, lines in output_data.items():
-        with open(filename, 'w', encoding='utf-8') as f_out:
+        with open('result/'+filename, 'w', encoding='utf-8') as f_out:
             f_out.writelines(lines)
 
 if __name__ == '__main__':
