@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# trojan://pswd@clean.it:2053?security=tls&fp=chrome&type=ws&host=domain&path=%2Fpyip%3Dclean.it#name
-
-
 import csv
 import os
 
-domain = 'qndb.pages.dev'
+domain = ''
 
-pswd = 'qndb'
+pswd = ''
 
 # trojan://{pswd}@{col1}:{col2}?security=tls&fp=chrome&type=ws&host={domain}&path=%2Fpyip%3D{col1}:{col2}#{col6} - {cnt}
+
+# {col1}:{col2}#{col6} - {cnt}
 
 def csv_to_txt(input_csv='proxies.csv', output_txt='result.txt'):
     # 确保输入文件存在
@@ -45,7 +44,7 @@ def csv_to_txt(input_csv='proxies.csv', output_txt='result.txt'):
             seen_col1.add(col1)
 
             # 按照要求的格式写入
-            line = f'trojan://{pswd}@{col1}:{col2}?security=tls&fp=chrome&type=ws&host={domain}&path=%2Fpyip%3D{col1}:{col2}#{col6} - {cnt}'
+            line = f'{col1}:{col2}#{col6} - {cnt}'
             txtfile.write(line + '\n')
             cnt += 1
 
