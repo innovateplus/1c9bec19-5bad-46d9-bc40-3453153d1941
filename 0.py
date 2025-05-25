@@ -14,6 +14,7 @@ def process_proxies(csv_path='proxies.csv'):
     seen_col1 = set()
     # 存储每个第6列文件对应要写的行
     output_data = {}  # key: 文件名, value: list of lines
+    output_data['0.txt'] = []
     cnt = 1
     # 读取 CSV
     with open(csv_path, newline='', encoding='utf-8') as f:
@@ -45,10 +46,11 @@ def process_proxies(csv_path='proxies.csv'):
             if filename not in output_data:
                 output_data[filename] = []
             output_data[filename].append(line)
+            output_data['0.txt'].append(line)
 
     # 将每个文件的数据写入磁盘（覆盖写入）
     for filename, lines in output_data.items():
-        with open('result/'+filename, 'w', encoding='utf-8') as f_out:
+        with open(filename, 'w', encoding='utf-8') as f_out:
             f_out.writelines(lines)
 
 if __name__ == '__main__':
