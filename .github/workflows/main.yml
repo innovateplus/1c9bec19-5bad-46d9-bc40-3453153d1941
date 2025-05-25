@@ -23,7 +23,7 @@ jobs:
         run: wget https://raw.githubusercontent.com/6Kmfi6HP/proxy_files/refs/heads/main/proxies.csv
 
       - name: Step2 - generate txt
-        run: python get.py
+        run: python 0.py
 
       - name: Step3 - remove old file
         run: rm proxies.csv
