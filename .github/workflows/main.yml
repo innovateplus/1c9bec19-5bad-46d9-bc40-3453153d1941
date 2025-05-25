@@ -3,7 +3,7 @@ name: Daily IP Update
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */3 * * *"  # Runs every three hours
+    - cron: "0 */12 * * *"  # Runs every 12 hours
 
 permissions: write-all
 
