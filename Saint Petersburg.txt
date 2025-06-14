@@ -1,8 +1,7 @@
-31.129.49.103:443#Saint Petersburg@2605
-147.45.147.212:8443#Saint Petersburg@2624
-89.248.207.37:443#Saint Petersburg@2666
-81.163.17.22:9443#Saint Petersburg@2788
-87.228.13.130:8443#Saint Petersburg@3187
-31.129.48.139:443#Saint Petersburg@3239
-31.129.42.100:2053#Saint Petersburg@3267
-185.125.217.104:2053#Saint Petersburg@3557
+31.129.49.103:443#Saint Petersburg@2495
+89.248.207.37:443#Saint Petersburg@2765
+31.129.42.100:2053#Saint Petersburg@3122
+31.129.48.139:443#Saint Petersburg@3279
+81.163.28.53:2053#Saint Petersburg@3430
+89.223.31.216:2053#Saint Petersburg@3811
+213.159.208.88:2053#Saint Petersburg@3871
