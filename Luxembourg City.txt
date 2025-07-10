@@ -1,3 +1,3 @@
-104.244.78.95:2083#Luxembourg City@2766
-104.244.77.65:8443#Luxembourg City@3205
-198.251.84.123:8443#Luxembourg City@3489
+104.244.78.95:2083#Luxembourg City@2748
+104.244.77.65:8443#Luxembourg City@3172
+198.251.84.123:8443#Luxembourg City@3479
