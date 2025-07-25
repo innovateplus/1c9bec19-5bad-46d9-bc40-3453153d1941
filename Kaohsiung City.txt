@@ -1,2 +1,1 @@
-118.163.37.32:81#Kaohsiung City@135
-60.249.114.181:26398#Kaohsiung City@747
+118.163.37.32:81#Kaohsiung City@127
