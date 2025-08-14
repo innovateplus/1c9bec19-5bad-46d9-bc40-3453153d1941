@@ -1,3 +1,3 @@
-210.61.97.241:81#Kaohsiung City@132
-118.163.37.32:81#Kaohsiung City@237
-60.249.114.181:26398#Kaohsiung City@263
+210.61.97.241:81#Kaohsiung City@185
+60.249.114.181:26398#Kaohsiung City@250
+118.163.37.32:81#Kaohsiung City@255
