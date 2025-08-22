@@ -1,1 +1,2 @@
-60.249.114.181:26398#Kaohsiung City@486
+210.61.97.241:81#Kaohsiung City@274
+60.249.114.181:26398#Kaohsiung City@308
