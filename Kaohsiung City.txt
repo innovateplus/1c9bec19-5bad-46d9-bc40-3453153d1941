@@ -1,2 +1,3 @@
-210.61.97.241:81#Kaohsiung City@274
-60.249.114.181:26398#Kaohsiung City@308
+210.61.97.241:81#Kaohsiung City@294
+118.163.37.32:81#Kaohsiung City@304
+60.249.114.181:26398#Kaohsiung City@318
